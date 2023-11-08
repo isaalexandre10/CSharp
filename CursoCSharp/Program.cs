@@ -5,6 +5,10 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -71,6 +75,35 @@ namespace CursoCSharp {
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
                 {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                //Programação Orientada a Objeto
+                {"Herança - OO", Heranca.Executar},
+                {"Construtor This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", POO.Encapsulamento.Executar},
+                {"Polimorfismo - OO", Polimorfismo.Executar},
+                {"Abstract - OO", Abstract.Executar},
+                {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
+
+                // Métodos & Funções
+                {"Exemplo Lambda - Métodos & Funções", ExemploLambda.Executar},
+                {"Lambdas Delegate - Métodos & Funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Métodos & Funções", UsandoDelegates.Executar},
+                {"Delegate Func Anonima - Métodos & Funções", DelegateFunAnonima.Executar},
+                {"Delegates Como Parâmetros - Métodos & Funções", DelegatesComoParametros.Executar},
+                {"Métodos de Extensão - Métodos & Funções", MetodosDeExtensao.Executar},
+                
+                // Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                
+                // Api
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                {"Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
+                {"Diretórios - Usando API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path - Usando API", ExemploPath.Executar},
             });
 
             central.SelecionarEExecutar();

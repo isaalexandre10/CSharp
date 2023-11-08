@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\Diretorios.cs" />
+    <Compile Include="Api\ExemploPath.cs" />
+    <Compile Include="Api\ExemploDirectoryInfo.cs" />
+    <Compile Include="Api\ExemploFileInfo.cs" />
+    <Compile Include="Api\LendoArquivos.cs" />
+    <Compile Include="Api\PrimeiroArquivo.cs" />
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
     <Compile Include="ClassesEMetodos\Construtores.cs" />
@@ -81,6 +87,8 @@
     <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
     <Compile Include="EstruturasDeControle\UsandoBreak.cs" />
     <Compile Include="EstruturasDeControle\UsandoContinue.cs" />
+    <Compile Include="Excecoes\ExcecoesPersonalizadas.cs" />
+    <Compile Include="Excecoes\PrimeiraExcecao.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
@@ -96,11 +104,33 @@
     <Compile Include="Fundamentos\OperadorTernario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFunAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\DelegatesComoParametros.cs" />
+    <Compile Include="MetodosEFuncoes\ExemploLambda.cs" />
+    <Compile Include="MetodosEFuncoes\LambdasDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegates.cs" />
+    <Compile Include="POO\Abstract.cs" />
+    <Compile Include="POO\ConstrutorThis.cs" />
+    <Compile Include="POO\Encapsulamento.cs" />
+    <Compile Include="POO\Heranca.cs" />
+    <Compile Include="POO\Interface.cs" />
+    <Compile Include="POO\Polimorfismo.cs" />
+    <Compile Include="POO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj">
+      <Project>{1a79fe06-96b1-47c1-b4e0-3159c75390a6}</Project>
+      <Name>Encapsulamento</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

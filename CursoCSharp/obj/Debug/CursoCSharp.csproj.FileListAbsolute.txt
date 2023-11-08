@@ -5,3 +5,13 @@ C:\Users\isaol\Documents\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csp
 C:\Users\isaol\Documents\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.CoreCompileInputs.cache
 C:\Users\isaol\Documents\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.exe
 C:\Users\isaol\Documents\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.pdb
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\bin\Debug\CursoCSharp.exe.config
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\bin\Debug\CursoCSharp.exe
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\bin\Debug\CursoCSharp.pdb
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.exe
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.pdb
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\bin\Debug\Encapsulamento.dll
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\bin\Debug\Encapsulamento.pdb
+C:\Users\isaol\OneDrive\Documentos\Curso\CursoCSharp\CursoCSharp\obj\Debug\CursoCSharp.csproj.CopyComplete
